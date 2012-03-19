@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 25px;
+	padding: 0;
+}
+
+a {
+	color:#FFFFFF;
+	text-decoration: none; <!-- no underline or decoration -->
+}
+
+a:hover {
+	color: #F09;
+}
+
+.edit {
+	
+}

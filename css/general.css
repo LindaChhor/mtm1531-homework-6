@@ -18,5 +18,13 @@ a:hover {
 }
 
 .edit {
-	
+	color:#63F;
+}
+
+.add {
+	color:#39F;
+}
+
+.delete {
+	color:#F03;
 }

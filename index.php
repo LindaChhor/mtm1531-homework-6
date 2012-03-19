@@ -28,10 +28,10 @@ $results = $db->query(' SELECT id, movie_title, release_date, director
 <ul>
 	<?php foreach ($results as $movie) : ?>
         <li>
-            <a href="single.php?id=<?php echo $movie['id']; ?>"><?php echo $movie['movie_title']; ?></a>
-            <a class="delete" href="delete.php?id=<?php echo $movie['id']; ?>">Delete</a>
+            <a  href="single.php?id=<?php echo $movie['id']; ?>"><?php echo $movie['movie_title']; ?></a>
             <a class="add" href="add.php?id=<?php echo $movie['id']; ?>">Add</a>
             <a class="edit" href="edit.php?id=<?php echo $movie['id']; ?>">Edit</a>
+            <a class="delete" href="delete.php?id=<?php echo $movie['id']; ?>">Delete</a>
         </li>
 	<?php endforeach; ?>
 </ul>

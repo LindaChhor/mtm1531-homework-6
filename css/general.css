@@ -9,22 +9,22 @@ html {
 }
 
 a {
-	color:#FFFFFF;
-	text-decoration: none; <!-- no underline or decoration -->
+	color:#fff;
+	text-decoration: none; 
 }
 
 a:hover {
 	color: #F09;
 }
 
-.edit {
-	color:#63F;
-}
-
 .add {
-	color:#39F;
+	color:#FCF;
 }
 
 .delete {
 	color:#F03;
+}
+
+.edit {
+	color:#FCF;
 }
